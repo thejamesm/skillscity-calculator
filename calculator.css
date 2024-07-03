@@ -1,0 +1,12 @@
+#readout {
+    width: 375px;
+    height: 65px;
+}
+
+.calcButton {
+    width: 125px;
+    height: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}

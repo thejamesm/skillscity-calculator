@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td colspan="3"><input type="text" id="readout"></td>
+                <td><input type="button" class="calcButton" value="C" onclick="clear"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="calcButton" value="1" onclick="button1"></td>
+                <td><input type="button" class="calcButton" value="2" onclick="button2"></td>
+                <td><input type="button" class="calcButton" value="3" onclick="button3"></td>
+                <td><input type="button" class="calcButton" value="/" onclick="buttonDivide"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="calcButton" value="4" onclick="button4"></td>
+                <td><input type="button" class="calcButton" value="5" onclick="button5"></td>
+                <td><input type="button" class="calcButton" value="6" onclick="button6"></td>
+                <td><input type="button" class="calcButton" value="*" onclick="buttonTimes"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="calcButton" value="7" onclick="button7"></td>
+                <td><input type="button" class="calcButton" value="8" onclick="button8"></td>
+                <td><input type="button" class="calcButton" value="9" onclick="button9"></td>
+                <td><input type="button" class="calcButton" value="-" onclick="buttonMinus"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="calcButton" value="0" onclick="button0"></td>
+                <td><input type="button" class="calcButton" value="." onclick="buttonDecimal"></td>
+                <td><input type="button" class="calcButton" value="=" onclick="buttonEquals"></td>
+                <td><input type="button" class="calcButton" value="+" onclick="buttonPlus"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

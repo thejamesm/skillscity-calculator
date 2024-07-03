@@ -11,31 +11,31 @@
         <table>
             <tr>
                 <td colspan="3"><input type="text" id="readout" value="0" readonly></td>
-                <td><input type="button" class="calcButton" value="C" onclick="reset_calc();"></td>
+                <td><input type="button" class="calcButton" value="C" onclick="calc.reset_calc();"></td>
             </tr>
             <tr>
-                <td><input type="button" class="calcButton" value="1" onclick="input_digit(1);"></td>
-                <td><input type="button" class="calcButton" value="2" onclick="input_digit(2);"></td>
-                <td><input type="button" class="calcButton" value="3" onclick="input_digit(3);"></td>
-                <td><input type="button" class="calcButton" value="/" onclick="input_operator('/');"></td>
+                <td><input type="button" class="calcButton" value="1" onclick="calc.input_digit(1);"></td>
+                <td><input type="button" class="calcButton" value="2" onclick="calc.input_digit(2);"></td>
+                <td><input type="button" class="calcButton" value="3" onclick="calc.input_digit(3);"></td>
+                <td><input type="button" class="calcButton" value="/" onclick="calc.input_operator('/');"></td>
             </tr>
             <tr>
-                <td><input type="button" class="calcButton" value="4" onclick="input_digit(4);"></td>
-                <td><input type="button" class="calcButton" value="5" onclick="input_digit(5);"></td>
-                <td><input type="button" class="calcButton" value="6" onclick="input_digit(6);"></td>
-                <td><input type="button" class="calcButton" value="*" onclick="input_operator('*');"></td>
+                <td><input type="button" class="calcButton" value="4" onclick="calc.input_digit(4);"></td>
+                <td><input type="button" class="calcButton" value="5" onclick="calc.input_digit(5);"></td>
+                <td><input type="button" class="calcButton" value="6" onclick="calc.input_digit(6);"></td>
+                <td><input type="button" class="calcButton" value="*" onclick="calc.input_operator('*');"></td>
             </tr>
             <tr>
-                <td><input type="button" class="calcButton" value="7" onclick="input_digit(7);"></td>
-                <td><input type="button" class="calcButton" value="8" onclick="input_digit(8);"></td>
-                <td><input type="button" class="calcButton" value="9" onclick="input_digit(9);"></td>
-                <td><input type="button" class="calcButton" value="-" onclick="input_operator('-');"></td>
+                <td><input type="button" class="calcButton" value="7" onclick="calc.input_digit(7);"></td>
+                <td><input type="button" class="calcButton" value="8" onclick="calc.input_digit(8);"></td>
+                <td><input type="button" class="calcButton" value="9" onclick="calc.input_digit(9);"></td>
+                <td><input type="button" class="calcButton" value="-" onclick="calc.input_operator('-');"></td>
             </tr>
             <tr>
-                <td><input type="button" class="calcButton" value="0" onclick="input_digit(0);"></td>
-                <td><input type="button" class="calcButton" value="." onclick="input_point();"></td>
-                <td><input type="button" class="calcButton" value="=" onclick="calculate();"></td>
-                <td><input type="button" class="calcButton" value="+" onclick="input_operator('+');"></td>
+                <td><input type="button" class="calcButton" value="0" onclick="calc.input_digit(0);"></td>
+                <td><input type="button" class="calcButton" value="." onclick="calc.input_point();"></td>
+                <td><input type="button" class="calcButton" value="=" onclick="calc.calculate();"></td>
+                <td><input type="button" class="calcButton" value="+" onclick="calc.input_operator('+');"></td>
             </tr>
         </table>
     </form>

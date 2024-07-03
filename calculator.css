@@ -1,6 +1,11 @@
 #readout {
     width: 375px;
     height: 65px;
+    font-family: 'Lucidia Console', 'Consolas', 'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-align: right;
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
 .calcButton {
@@ -9,4 +14,8 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     font-weight: bold;
+    background-color: forestgreen;
+    color: white;
+    border-width: 0;
+    border-radius: 5px;
 }
